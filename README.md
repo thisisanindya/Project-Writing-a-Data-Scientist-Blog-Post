@@ -1,15 +1,15 @@
 ## Project-Writing-a-Data-Scientist-Blog-Post
 
 ## Project Motivation:
-### The main idea of this project is to find out if there a way to find out a set of features which can help to predict the price of airbnb homestay. Analysis was done around various features like neighborhod, property type, room type and amenities etc. Later on focus was on a smaller set of features which can help to predict the price. 
+#### The main idea of this project is to find out if there a way to find out a set of features which can help to predict the price of airbnb homestay. Analysis was done around various features like neighborhod, property type, room type and amenities etc. Later on focus was on a smaller set of features which can help to predict the price. 
 
 ## Questions: 
-### Question-1: Which neighborhood has maximum presence of airbnb listing?
-### Question 2: How neighborhood influences the homestay price? 
-### Question 3: How property type influences the homestay price?
-### Question 4: How number of bedrooms influences the homestay price?
-### Question-5: How amenities influence the price of the airbnb homestay?
-### Question-6: Is it possible to predict price of a homestay with a set of features? 
+#### Question-1: Which neighborhood has maximum presence of airbnb listing?
+#### Question 2: How neighborhood influences the homestay price? 
+#### Question 3: How property type influences the homestay price?
+#### Question 4: How number of bedrooms influences the homestay price?
+#### Question-5: How amenities influence the price of the airbnb homestay?
+#### Question-6: Is it possible to predict price of a homestay with a set of features? 
 
 ## File Details: 
 #### listing.csv
@@ -44,5 +44,5 @@
 #### Question-6: Key features identified are related to accommodation, availability and review score. The predicted value was very less but the overall trend appears very similar. So we can say that the prediction on the price is quite possible with the features we have selected.
 
 ## Acknowledgements
-### Dataset Credit - https://www.kaggle.com/airbnb/seattle
-### Others: Thanks to Udacity for excellent course material and also to the mentors for timely help.
+#### Dataset Credit - https://www.kaggle.com/airbnb/seattle
+#### Others: Thanks to Udacity for excellent course material and also to the mentors for timely help.
