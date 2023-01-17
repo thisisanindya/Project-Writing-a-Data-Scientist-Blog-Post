@@ -18,6 +18,15 @@
 #### airbnb.ipynb
 #### README.md
 
+## Methodology Used
+#### Step-1: Business Understanding - We would like to analyse which are the key features influencing the price of an airbnb homestay in Seattle and if there are some trends that can be used to make prediction to find the best price of airbnb homestay. Answer to the below set of questions will help us to get there.
+
+#### Step-2 - Data Understanding - Here we look at the listing, calender and reviews data. Checkc on all the columns datatypes and few statistical details. 
+
+#### Step-3: Data Preparation & Cleaning - Here We will be looking for missing values, wrong data types, unnecessary features that can be dropped. 
+
+#### Step-4: Evaluation and Modeling
+
 ## Libraries Used
 #### numpy
 #### pandas
