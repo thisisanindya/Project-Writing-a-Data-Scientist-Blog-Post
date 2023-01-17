@@ -3,31 +3,37 @@
 ## Project Motivation:
 ### The main idea of this project is to find out if there a way to find out a set of features which can help to predict the price of airbnb homestay. Analysis was done around various features like neighborhod, property type, room type and amenities etc. Later on focus was on a smaller set of features which can help to predict the price. 
 
+## Questions: 
+### Question-1: Which neighborhood has maximum presence of airbnb listing?
+### Question 2: How neighborhood influences the homestay price? 
+### Question 3: How property type influences the homestay price?
+### Question 4: How number of bedrooms influences the homestay price?
+### Question-5: How amenities influence the price of the airbnb homestay?
+### Question-6: Is it possible to predict price of a homestay with a set of features? 
 
-In this project I had a look at the accommodation prices for Seattle based Airbnb's. It's difficult enough to find the best value stay for your money, so I tried to make it a little bit easier for you with this analysis. I tried to answer three questions all regarding the price of an accommodation, including seasonal fluctuations, differences in neighbourhoods and whether it is possible to predict future prices based on given features.
-Files:
+## File Details: 
+#### listing.csv
+#### calendar.csv
+#### reviews.csv
+#### airbnb.ipynb
+#### README.md
 
-In this repository you can find the jupyter notebook I used for the analysis and the three data sets (calander.csv for bookings, listings.csv for accommodation specific data and reviews.csv for review data), all packaged into one .zip file (because of the size).
-How to interact with the project:
+## Libraries Used
+#### numpy
+#### pandas
+#### matplotlib.pyplot
+#### sklearn
+#### seaborn
+#### collections
 
-There are two way you can interact with my project. The first is to download all the files and take a look at the data analysis yourself. The second, which might be easier and faster, is to take a look at the blog post I wrote which summarizes to key insights in a quick read.
-Summary:
+## Summary
+#### Question-1: Broadway has the highest number of airbnb listing which is almost double number of Belltown which is the second position.  
+#### Question-2: Highest median prices are around the nighbourhoods of 1) Briajrcliff, 2) Pioneer square. Lowest median prices are around the nighbourhoods of 1) Olympic Hills, 2) Rainier Beach. 
+#### Question-3: It is evident that 'Boat', 'Condominium', 'Apartment' has higher median price than the other property types.
+#### Question-4: Price is more i there are more number of bedrooms.
+#### Question-5: The most common amenities which influences the price are - 1) Wireless Internet, 2) Heating, 3)Kitchen, 4) Smoke Detector, 5) Essentials. Also the least common amenities are 1) Elevators, 2) Hangers, 3) pets, 4) Indoor Fireplace, 5) Cable tv and they do not influence price much.
+#### Question-6: Key features identified are related to accommodation, availability and review score. The predicted value was very less but the overall trend appears very similar. So we can say that the prediction on the price is quite possible with the features we have selected.
 
-Question 1: Are there any seasonal fluctuations regarding the price of an accomodation, for example is the summer more expensive than the winter?
-
-It seem's that there are indeed some seasonal fluctuations in the price. There is a rise in prices starting in Spring with a peak during July. Summer time in general seems like the most expensive season.
-Question 2: Does the neighborhood have an impact on the price of the accomodation?
-
-There is a huge difference in prices in the different neighbourhoods. Magnolia is almost double as expensive on average as Delridge.
-Question 3: Can we make a prediction on the price using different features?
-
-Despite there being way less predicted values, the overall trend seems to be very similar, with a peak in the same spot. Therefore it seems reasonable to say that a prediction on the price is somewhat possible, given the circumstances.
-Authors:
-
-Dennis Burckhardt
-Licensing:
-
-There is none at this moment.
-Acknowledgements:
-
-Udacity Data Science Nanodegree Tutors :)
+## Acknowledgements
+### Dataset Credit - https://www.kaggle.com/airbnb/seattle
+### Others: Thanks to Udacity for excellent course material and also to the mentors for timely help.
